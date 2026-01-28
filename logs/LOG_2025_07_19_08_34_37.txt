@@ -1,0 +1,291 @@
+INFO: Starting simulation ...
+INFO: 
+Round 1 / 5
+In state
+_ _ _ _ _ _ _ _
+_ _ 0 _ _ 0 0 _
+_ _ A _ _ B _ _
+_ 0 _ _ 0 _ _ _
+_ 0 _ 0 _ _ 0 _
+_ _ D _ _ C _ _
+_ 0 0 _ _ 0 _ _
+_ _ _ _ _ _ _ _
+agent A chose action ((2, 2), (2, 0)) from actions [((2, 2), (2, 4)), ((2, 2), (4, 2)), ((2, 2), (2, 0)), ((2, 2), (2, 3)), ((2, 2), (3, 2)), ((2, 2), (2, 1)), ((2, 2), (2, 2))]
+Think time was 0.28 seconds.
+
+INFO: 
+Round 1 / 5
+In state
+_ _ _ _ _ _ _ _
+_ _ 0 _ _ 0 0 _
+A a a _ _ B _ _
+_ 0 _ _ 0 _ _ _
+_ 0 _ 0 _ _ 0 _
+_ _ D _ _ C _ _
+_ 0 0 _ _ 0 _ _
+_ _ _ _ _ _ _ _
+agent B chose action ((2, 5), (2, 1)) from actions [((2, 5), (2, 7)), ((2, 5), (4, 5)), ((2, 5), (2, 1)), ((2, 5), (2, 6)), ((2, 5), (3, 5)), ((2, 5), (2, 4)), ((2, 5), (2, 5))]
+Think time was 0.26 seconds.
+
+INFO: 
+Round 1 / 5
+In state
+_ _ _ _ _ _ _ _
+_ _ 0 _ _ 0 0 _
+A B b b b b _ _
+_ 0 _ _ 0 _ _ _
+_ 0 _ 0 _ _ 0 _
+_ _ D _ _ C _ _
+_ 0 0 _ _ 0 _ _
+_ _ _ _ _ _ _ _
+agent C chose action ((5, 5), (5, 7)) from actions [((5, 5), (2, 5)), ((5, 5), (5, 7)), ((5, 5), (5, 3)), ((5, 5), (4, 5)), ((5, 5), (5, 6)), ((5, 5), (5, 4)), ((5, 5), (5, 5))]
+Think time was 0.13 seconds.
+
+INFO: 
+Round 1 / 5
+In state
+_ _ _ _ _ _ _ _
+_ _ 0 _ _ 0 0 _
+A B b b b b _ _
+_ 0 _ _ 0 _ _ _
+_ 0 _ 0 _ _ 0 _
+_ _ D _ _ c c C
+_ 0 0 _ _ 0 _ _
+_ _ _ _ _ _ _ _
+agent D chose action ((5, 2), (2, 2)) from actions [((5, 2), (2, 2)), ((5, 2), (5, 6)), ((5, 2), (5, 0)), ((5, 2), (4, 2)), ((5, 2), (5, 3)), ((5, 2), (5, 1)), ((5, 2), (5, 2))]
+Think time was 0.12 seconds.
+
+INFO: 
+Round 2 / 5
+In state
+_ _ _ _ _ _ _ _
+_ _ 0 _ _ 0 0 _
+A B D b b b _ _
+_ 0 d _ 0 _ _ _
+_ 0 d 0 _ _ 0 _
+_ _ d _ _ c c C
+_ 0 0 _ _ 0 _ _
+_ _ _ _ _ _ _ _
+agent A chose action ((2, 0), (7, 0)) from actions [((2, 0), (0, 0)), ((2, 0), (7, 0)), ((2, 0), (1, 0)), ((2, 0), (3, 0)), ((2, 0), (2, 0))]
+Think time was 0.07 seconds.
+
+INFO: 
+Round 2 / 5
+In state
+_ _ _ _ _ _ _ _
+_ _ 0 _ _ 0 0 _
+a B D b b b _ _
+a 0 d _ 0 _ _ _
+a 0 d 0 _ _ 0 _
+a _ d _ _ c c C
+a 0 0 _ _ 0 _ _
+A _ _ _ _ _ _ _
+agent B chose action ((2, 1), (0, 1)) from actions [((2, 1), (0, 1)), ((2, 1), (2, 0)), ((2, 1), (1, 1)), ((2, 1), (2, 1))]
+Think time was 0.09 seconds.
+
+INFO: 
+Round 2 / 5
+In state
+_ B _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b D b b b _ _
+a 0 d _ 0 _ _ _
+a 0 d 0 _ _ 0 _
+a _ d _ _ c c C
+a 0 0 _ _ 0 _ _
+A _ _ _ _ _ _ _
+agent C chose action ((5, 7), (5, 0)) from actions [((5, 7), (0, 7)), ((5, 7), (7, 7)), ((5, 7), (5, 0)), ((5, 7), (4, 7)), ((5, 7), (6, 7)), ((5, 7), (5, 6)), ((5, 7), (5, 7))]
+Think time was 0.13 seconds.
+
+INFO: 
+Round 2 / 5
+In state
+_ B _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b D b b b _ _
+a 0 d _ 0 _ _ _
+a 0 d 0 _ _ 0 _
+C c c c c c c c
+a 0 0 _ _ 0 _ _
+A _ _ _ _ _ _ _
+agent D chose action ((2, 2), (2, 7)) from actions [((2, 2), (2, 7)), ((2, 2), (5, 2)), ((2, 2), (2, 0)), ((2, 2), (2, 3)), ((2, 2), (3, 2)), ((2, 2), (2, 1)), ((2, 2), (2, 2))]
+Think time was 0.10 seconds.
+
+INFO: 
+Round 3 / 5
+In state
+_ B _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b d d d d d D
+a 0 d _ 0 _ _ _
+a 0 d 0 _ _ 0 _
+C c c c c c c c
+a 0 0 _ _ 0 _ _
+A _ _ _ _ _ _ _
+agent A chose action ((7, 0), (7, 7)) from actions [((7, 0), (6, 0)), ((7, 0), (7, 7)), ((7, 0), (7, 1)), ((7, 0), (7, 0))]
+Think time was 0.08 seconds.
+
+INFO: 
+Round 3 / 5
+In state
+_ B _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b d d d d d D
+a 0 d _ 0 _ _ _
+a 0 d 0 _ _ 0 _
+C c c c c c c c
+a 0 0 _ _ 0 _ _
+a a a a a a a A
+agent B chose action ((0, 1), (0, 0)) from actions [((0, 1), (0, 7)), ((0, 1), (2, 1)), ((0, 1), (0, 0)), ((0, 1), (0, 2)), ((0, 1), (1, 1)), ((0, 1), (0, 1))]
+Think time was 0.13 seconds.
+
+INFO: 
+Round 3 / 5
+In state
+B b _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b d d d d d D
+a 0 d _ 0 _ _ _
+a 0 d 0 _ _ 0 _
+C c c c c c c c
+a 0 0 _ _ 0 _ _
+a a a a a a a A
+agent C chose action ((5, 0), (6, 0)) from actions [((5, 0), (1, 0)), ((5, 0), (5, 7)), ((5, 0), (7, 0)), ((5, 0), (4, 0)), ((5, 0), (5, 1)), ((5, 0), (6, 0)), ((5, 0), (5, 0))]
+Think time was 0.09 seconds.
+
+INFO: 
+Round 3 / 5
+In state
+B b _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b d d d d d D
+a 0 d _ 0 _ _ _
+a 0 d 0 _ _ 0 _
+c c c c c c c c
+C 0 0 _ _ 0 _ _
+a a a a a a a A
+agent D chose action ((2, 7), (6, 7)) from actions [((2, 7), (0, 7)), ((2, 7), (6, 7)), ((2, 7), (2, 0)), ((2, 7), (1, 7)), ((2, 7), (3, 7)), ((2, 7), (2, 6)), ((2, 7), (2, 7))]
+Think time was 0.05 seconds.
+
+INFO: 
+Round 4 / 5
+In state
+B b _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b d d d d d d
+a 0 d _ 0 _ _ d
+a 0 d 0 _ _ 0 d
+c c c c c c c d
+C 0 0 _ _ 0 _ D
+a a a a a a a A
+agent A chose action ((7, 7), (7, 0)) from actions [((7, 7), (7, 0)), ((7, 7), (7, 6)), ((7, 7), (7, 7))]
+Think time was 0.02 seconds.
+
+INFO: 
+Round 4 / 5
+In state
+B b _ _ _ _ _ _
+_ b 0 _ _ 0 0 _
+a b d d d d d d
+a 0 d _ 0 _ _ d
+a 0 d 0 _ _ 0 d
+c c c c c c c d
+C 0 0 _ _ 0 _ D
+A a a a a a a a
+agent B chose action ((0, 0), (5, 0)) from actions [((0, 0), (0, 7)), ((0, 0), (5, 0)), ((0, 0), (0, 1)), ((0, 0), (1, 0)), ((0, 0), (0, 0))]
+Think time was 0.02 seconds.
+
+INFO: 
+Round 4 / 5
+In state
+b b _ _ _ _ _ _
+b b 0 _ _ 0 0 _
+b b d d d d d d
+b 0 d _ 0 _ _ d
+b 0 d 0 _ _ 0 d
+B c c c c c c d
+C 0 0 _ _ 0 _ D
+A a a a a a a a
+agent C chose action ((6, 0), (6, 0)) from actions [((6, 0), (6, 0))]
+Think time was 0.01 seconds.
+
+INFO: 
+Round 4 / 5
+In state
+b b _ _ _ _ _ _
+b b 0 _ _ 0 0 _
+b b d d d d d d
+b 0 d _ 0 _ _ d
+b 0 d 0 _ _ 0 d
+B c c c c c c d
+C 0 0 _ _ 0 _ D
+A a a a a a a a
+agent D chose action ((6, 7), (0, 7)) from actions [((6, 7), (0, 7)), ((6, 7), (7, 7)), ((6, 7), (6, 6)), ((6, 7), (5, 7)), ((6, 7), (6, 7))]
+Think time was 0.02 seconds.
+
+INFO: 
+Round 5 / 5
+In state
+b b _ _ _ _ _ D
+b b 0 _ _ 0 0 d
+b b d d d d d d
+b 0 d _ 0 _ _ d
+b 0 d 0 _ _ 0 d
+B c c c c c c d
+C 0 0 _ _ 0 _ d
+A a a a a a a a
+agent A chose action ((7, 0), (7, 7)) from actions [((7, 0), (7, 7)), ((7, 0), (7, 1)), ((7, 0), (7, 0))]
+Think time was 0.00 seconds.
+
+INFO: 
+Round 5 / 5
+In state
+b b _ _ _ _ _ D
+b b 0 _ _ 0 0 d
+b b d d d d d d
+b 0 d _ 0 _ _ d
+b 0 d 0 _ _ 0 d
+B c c c c c c d
+C 0 0 _ _ 0 _ d
+a a a a a a a A
+agent B chose action ((5, 0), (5, 7)) from actions [((5, 0), (0, 0)), ((5, 0), (5, 7)), ((5, 0), (4, 0)), ((5, 0), (5, 1)), ((5, 0), (5, 0))]
+Think time was 0.00 seconds.
+
+INFO: 
+Round 5 / 5
+In state
+b b _ _ _ _ _ D
+b b 0 _ _ 0 0 d
+b b d d d d d d
+b 0 d _ 0 _ _ d
+b 0 d 0 _ _ 0 d
+b b b b b b b B
+C 0 0 _ _ 0 _ d
+a a a a a a a A
+agent C chose action ((6, 0), (0, 0)) from actions [((6, 0), (0, 0)), ((6, 0), (7, 0)), ((6, 0), (5, 0)), ((6, 0), (6, 0))]
+Think time was 0.00 seconds.
+
+INFO: 
+Round 5 / 5
+In state
+C b _ _ _ _ _ D
+c b 0 _ _ 0 0 d
+c b d d d d d d
+c 0 d _ 0 _ _ d
+c 0 d 0 _ _ 0 d
+c b b b b b b B
+c 0 0 _ _ 0 _ d
+a a a a a a a A
+agent D chose action ((0, 7), (0, 1)) from actions [((0, 7), (4, 7)), ((0, 7), (0, 1)), ((0, 7), (1, 7)), ((0, 7), (0, 6)), ((0, 7), (0, 7))]
+Think time was 0.00 seconds.
+
+INFO: 
+Final state
+C D d d d d d d
+c b 0 _ _ 0 0 d
+c b d d d d d d
+c 0 d _ 0 _ _ d
+c 0 d 0 _ _ 0 d
+c b b b b b b B
+c 0 0 _ _ 0 _ d
+a a a a a a a A
